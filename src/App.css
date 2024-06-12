@@ -299,3 +299,54 @@ overflow-x: hidden;
 /*
   Header
 */
+.home_main{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: -80px;
+  background-color: #1ed760;
+}
+
+.hm_cont{
+  margin-top: 235px;
+  position: relative;
+}
+.home_text{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.home_text h1 {
+  font-size: 100px;
+  font-weight: bolder;
+}
+.home_text h3 {
+  font-size: 20px;
+  margin-top: 70px;
+}
+.green_btn{
+  display: inline-block;
+  margin: 32px 0;
+  font-size: 16px;
+  line-height: 1;
+  border-radius: 50px;
+  padding: 19px 56px 21px;
+  color: var(--white);
+  background-color: var(--black);
+  transition-duration: .3s;
+  border-width: 0;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.green_btn:hover{
+  background-color: var(--white);
+  color: var(--black);
+}
